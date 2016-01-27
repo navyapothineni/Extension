@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "Reddit URL Fetch",
+  "description": "This extension retrieves all URLs in the comment section of the reddit post on the current tab.",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "https://ajax.googleapis.com/"
+  ]
+  
+}
